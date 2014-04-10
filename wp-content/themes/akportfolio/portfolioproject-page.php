@@ -16,6 +16,11 @@ get_header(); ?>
 
 			<p>this is my portfolio test page</p>
 
+
+
+
+    <h1><?php the_field('section_list'); ?></h1>
+
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'content', 'page' ); ?>
