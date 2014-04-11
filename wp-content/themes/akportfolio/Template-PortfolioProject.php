@@ -39,8 +39,6 @@ get_header(); ?>
 									<li <?php if( get_sub_field('submenu') ) ?>><?php the_sub_field('submenu'); ?></li>
 
 				
-							
-
 
 
 
@@ -48,7 +46,7 @@ get_header(); ?>
 								<?php endwhile; ?>
 								</ul>
 							<?php endif; //if( get_sub_field('section_list') ): ?>
-							
+
 									<?php 
 
  
