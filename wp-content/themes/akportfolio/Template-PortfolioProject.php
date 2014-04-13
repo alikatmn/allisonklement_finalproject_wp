@@ -2,7 +2,7 @@
 /**
 * Template Name: Portfolio Project
 */
-?>
+
 get_header(); ?>
  
 	<div id="primary">
@@ -23,7 +23,27 @@ get_header(); ?>
 					// loop through rows (parent repeater)
 					while( have_rows('project_header') ): the_row(); ?>
 						<div>
+
 							<h3><?php the_sub_field('section_name'); ?></h3>
+							
+
+<?php 
+$images = get_sub_field('section_image_gallery');
+
+if( $images ): ?>
+    <div id="slider" class="flexslider">
+        <ul class="slides">
+            <?php foreach( $images as $image ): ?>
+                <li>
+                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+                    <p><?php echo $image['caption']; ?></p>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+<?php endif; ?>
+
+
 							<?php 
  
 							// check for rows (sub repeater)

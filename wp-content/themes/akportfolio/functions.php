@@ -85,6 +85,11 @@ add_action( 'widgets_init', 'creataliportfolio_widgets_init' );
  */
 function creataliportfolio_scripts() {
 	wp_enqueue_style( 'creataliportfolio-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'Lato', 'http://fonts.googleapis.com/css?family=Lato:400,700,300' );
+	wp_enqueue_style( 'Cinzel', 'http://fonts.googleapis.com/css?family=Cinzel' );
+
+
+
 
 	//wp_enqueue_script( 'creataliportfolio-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
