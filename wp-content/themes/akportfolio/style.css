@@ -653,6 +653,8 @@ object {
 /*--------------------------------------------------------------
 13.0 Creatali Ali Klement Portfolio
 --------------------------------------------------------------*/
+
+
 .section {
 
 	background-color: #5D5D5D;
@@ -660,6 +662,11 @@ object {
  	line-height: 1.25em;
  	font-family: Lato, sans-serif;
  	font-weight: 400;
+}
+
+
+.challenges ul {
+	margin-left: 0;
 }
 
 
@@ -677,9 +684,17 @@ object {
 
 }
 
+.project-header {
+	border: 1px solid red;
+	width: 800px;
+	height: 125px;
+}
+
+
+
 .slides {
 
-	margin: auto;
+	margin: 0;
 }
 
 .indv-slide {
@@ -734,10 +749,13 @@ object {
 
 }
 
+
+
 .list-headline-bkg {
 	
 	width: 800px;
 	background-color: #B3B3B3;
+
 
 }
 
@@ -768,9 +786,11 @@ object {
 }
 
 
+
 .challenges {
-	list-style-position: none;
+	list-style: none;
 }
+
 
 .top-background-img {
 	width: 100%;
