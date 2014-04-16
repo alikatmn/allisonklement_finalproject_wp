@@ -3,7 +3,7 @@
 * Template Name: Portfolio Project
 */
 
-get_header(); ?>
+get_header('project'); ?>
 
  
 	<div id="primary">
@@ -14,7 +14,7 @@ get_header(); ?>
  
 			<?php while ( have_posts() ) : the_post(); ?>
  
-				<h1><?php the_title(); ?></h1>
+
 				<?php the_content(); ?>
  
  			<!--<div class="project-top">-->
@@ -117,3 +117,6 @@ get_header(); ?>
  	</div>
 		</div><!-- #content -->
 	</div><!-- #primary -->
+
+	<?php
+	get_footer('project'); ?>

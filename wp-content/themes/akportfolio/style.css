@@ -654,6 +654,11 @@ object {
 13.0 Creatali Ali Klement Portfolio
 --------------------------------------------------------------*/
 
+ /* ;;;;;;;;;;;;;;;;;
+     inner page
+    ;;;;;;;;;;;;;;;;; */
+
+
 
 .section {
 
@@ -662,11 +667,18 @@ object {
  	line-height: 1.25em;
  	font-family: Lato, sans-serif;
  	font-weight: 400;
+ 	 	border-bottom: 1px solid #5D5D5D;
+
+
 }
 
 
 .challenges ul {
 	margin-left: 0;
+	margin-top: 0;
+	/*border: 1px solid red;*/
+
+
 }
 
 
@@ -676,18 +688,23 @@ object {
 	border-left: 2px solid black;
 	border-right: 2px solid black;
 	background-color: #4D4D4D;
+	 	border-bottom: 1px solid #5D5D5D;
+
 }
 .portfolio-page {
 	width: 800px;
 	margin: auto;
 	background-color: #fff;
+	 	border-bottom: 1px solid #5D5D5D;
+
 
 }
 
 .project-header {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	width: 800px;
 	height: 125px;
+
 }
 
 
@@ -698,20 +715,21 @@ object {
 }
 
 .indv-slide {
-
+	width: 100%;
 	list-style: none;
-	margin-top: 20px;
-	border-top: 2px solid #5D5D5D;
-	border-bottom: 2px solid #5D5D5D;
+	margin-top: 0px;
+	/*background-color: #4D4D4D;*/
+
 
 }
+
 
 .section-name {
 	width: 300px;
 	height: 120px;
 	padding-top: 20px;
 	padding-left: 30px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	color: #fff;
 	font-family: Cinzel, sans-serif;
 	font-size: 32px;
@@ -724,7 +742,7 @@ object {
 
 }
 .section-list {
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	width: 400px;
 	height: 70px;
 	position: relative;
@@ -740,31 +758,35 @@ object {
    	-webkit-column-count: 2;
    	-webkit-column-gap: 1px;
 
+
 }
 .submenu {
-	border: 1px solid navy;
+	/*border: 1px solid navy;*/
+	margin: 3px;
 	list-style: none;
 	width: 180px;
 	margin-left: -20px;
+
 
 }
 
 
 
 .list-headline-bkg {
-	
 	width: 800px;
 	background-color: #B3B3B3;
-
-
+	border-top: 1px solid black;
 }
+
+
 
 .list-headline {
 		width: 750px;
 		height: 40px;
-		border: 2px solid green;
+		/*border: 2px solid green;*/
 		list-style: none;
 		margin: auto;
+		margin-top: 10px;
 		font-size: 1.2em;
 		padding-top: 4px;
 
@@ -774,17 +796,18 @@ object {
 	width: 800px;
 	background-color: #E6E6E6;
 	margin: auto;
+	padding-top: 7px;
+	padding-bottom: 30px;
 
 }
 
 .list-paragraph {
 		width: 750px;
-		border: 2px solid aqua;
+		/*border: 2px solid aqua;*/
 		list-style: none;
 		margin: auto;
 
 }
-
 
 
 .challenges {
@@ -798,3 +821,109 @@ object {
 	position: relative;
 
 }
+
+.project-page-border {
+	width: 960px;
+	height: 140px;
+	margin: auto;
+/*	border-left: 2px solid black;
+	border-right: 2px solid black;*/
+	background-color: #fff;
+}
+.project-portfolio-page {
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+
+}
+
+ /* ;;;;;;;;;;;;;;;;;
+     inner page header
+    ;;;;;;;;;;;;;;;;; */
+
+.project-page-nav ul {
+	width: 300px;
+
+	list-style-type:none;
+	padding:0;
+	margin: 0;
+	position: relative;
+	top: -50px;
+	left: 290px;
+
+}
+
+.project-page-nav li {
+	display:inline;
+
+}
+
+.project-page-nav a:link {
+	color:#5D5D5D;
+	text-decoration:none;
+	}    /* unvisited link */
+.project-page-nav a:visited {
+	color:#5D5D5D;
+	text-decoration:none;
+	} /* visited link */
+.project-page-nav a:hover {
+	color:#F7931E;
+	text-decoration:none;
+	}   /* mouse over link */
+.project-page-nav a:active {
+	color:#F7931E;
+	text-decoration:none;
+	}  /* selected link */
+
+
+
+.project-section {
+	height: 140px;
+	background-color: #fff;
+	margin: 0;
+	line-height: 1.25em;
+ 	font-family: Lato, sans-serif;
+ 	font-weight: 400;
+/* 	border: 3px solid green;*/
+
+
+
+}
+
+.project-header-logo {
+	width: 275px;
+/*	border: 1px solid blue;*/
+	margin-top: 20px;
+	margin-left: 30px;
+	position: absolute;
+
+
+}
+
+
+ /* ;;;;;;;;;;;;;;;;;
+ end of inner page header
+    ;;;;;;;;;;;;;;;;; */
+
+.copyright {
+	width: 100%;
+	height: 50px;
+ 	margin-top: 20px;
+ 	font-size: small;
+ 	text-align: center;
+ 	border-bottom: 3px solid #5D5D5D;
+
+ }
+
+
+
+.copyright a:link {
+	color:#F7931E;
+	text-decoration:none;
+	}    /* unvisited link */
+.copyright a:hover {
+	color:#5D5D5D;
+	text-decoration:underline;
+	}   /* mouse over link */
+
+
