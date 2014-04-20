@@ -875,6 +875,13 @@ object {
 	text-decoration:none;
 	}  /* selected link */
 
+.project-page-nav li:before {
+content: " | ";
+}
+
+.project-page-nav li:first-child:before {
+content: none;
+}
 
 
 .project-section {

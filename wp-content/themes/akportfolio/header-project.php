@@ -36,8 +36,8 @@
 			</div>
 		<nav class="project-page-nav">
 			<ul>
-				<li><a href="#">projects | </a></li>
-				<li><a href="#">about | </a></li>
+				<li><a href="#">projects </a></li>
+				<li><a href="#">about </a></li>
 				<li><a href="#">contact</a></li>
 			</ul>
 		</nav>
