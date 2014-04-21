@@ -24,11 +24,18 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+
+			<header>
+			<div class='homepage-header'>
+			<a href="#"><img class="homepage-header-logo" src="http://localhost:8888/wp-content/uploads/2014/04/logowtag.png"></a>
+			</div>
+
+			
+
+
 		</div>
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
+		<!-- <nav id="site-navigation" class="main-navigation" role="navigation">
 			<h1 class="menu-toggle"><?php _e( 'Menu', 'creataliportfolio' ); ?></h1>
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'creataliportfolio' ); ?></a>
 

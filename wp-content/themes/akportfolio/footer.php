@@ -11,11 +11,9 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'creataliportfolio' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'creataliportfolio' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'creataliportfolio' ), 'CreataliPortfolio', '<a href="http://allisonklement.com/" rel="designer">Allison Klement</a>' ); ?>
-		</div><!-- .site-info -->
+		<div class="homepage-copyright">
+			<h2>Custom Wordpress Theme Designed and Developed by <a href='www.allisonklement.com'>Allison Klement</a> ©2014</h2>
+		</div><!-- .copyright -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
