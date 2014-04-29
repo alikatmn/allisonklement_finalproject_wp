@@ -25,7 +25,7 @@ if( !empty($image) ): ?>
 
 		<nav class="homepage-main-nav">
 			<ul>
-				<li><a href="http://localhost:8888/?page_id=4">Web Portfolio</a>
+				<li><a href="http://localhost:8888/portfolio-inner-page">Web Portfolio</a>
 					<ul>
 						<li><a href="#">PlayPlan.com</a></li>
 						<li><a href="#">Bark.com</a></li>
