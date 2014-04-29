@@ -32,7 +32,7 @@
 
 		<header>
 			<div class='project-header'>
-			<a href="#"><img class="project-header-logo" src="http://localhost:8888/wp-content/uploads/2014/04/smlogo.png"></a>
+			<a href="<?php echo home_url(); ?>/?p=49"><img class="project-header-logo" src="<?php get_stylesheet_directory() ?> /wp-content/uploads/2014/04/smlogo.png"></a>
 			</div>
 		<nav class="project-page-nav">
 			<ul>

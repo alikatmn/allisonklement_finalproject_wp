@@ -27,7 +27,7 @@
 
 			<header>
 			<div class='homepage-header'>
-			<a href="#"><img class="homepage-header-logo" src=" <?php get_stylesheet_directory() ?> /wp-content/uploads/2014/04/logowtag.png"></a>
+			<a href="<?php echo home_url(); ?>/?p=49"><img class="homepage-header-logo" src=" <?php get_stylesheet_directory() ?> /wp-content/uploads/2014/04/logowtag.png"></a>
 			</div>
 
 			
